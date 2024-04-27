@@ -1,0 +1,13 @@
+
+body{
+    background-color: #961a1abc;
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+#canvas{
+    background-color: #544848;
+}
