@@ -3,11 +3,34 @@ body{
     background-color: #961a1abc;
     font-family: Helvetica, sans-serif;
     margin: 0;
-    padding: 0;
-    text-align: center;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #canvas{
     background-color: #544848;
+}
+
+#network{
+    background-color: #000000;
+}
+
+#vertButton{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    padding: 5px 5px 7px 5px;
+    margin: 2px;
+    cursor: pointer;
+    background-color: #000000;
+}
+
+button:hover{
+    background-color: hsl(0, 0%, 100%);
 }
